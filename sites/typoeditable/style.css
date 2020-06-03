@@ -14,16 +14,24 @@ body
 	background: #07d1ff;
 	overflow: hidden;
 }
-h1
+textarea
 {
 	position: relative;
 	color: #fff;
 	font-size: 6rem;
-	line-height: 1.1rem;
+	line-height: 5rem;
 	outline: none;
+	border: none;
+	margin: auto;
+	top: 25px;
+	left: 30px;
+    height: 50vh;
+	text-align: center;
+	overflow: hidden;
+	background: transparent;
 	text-align: center;
 	user-select: none;
-	transform: rotate(-10deg) skewX(20deg);
+	transform: rotate(-15deg) skewX(5deg);
 	text-shadow: -1px 1px #cacaca,
 							-2px 2px #cacaca,
 							-3px 3px #cacaca,
