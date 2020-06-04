@@ -2,12 +2,11 @@
 
 *
 {
-
+	scroll-behavior: smooth;
 }
 body
 {
 	font-family: 'Roboto', Arial, sans-serif;
-
 }
 h1,h2,h3,h4,h5,h6
 {
@@ -119,6 +118,32 @@ section .heading
 {
 	box-shadow: 5px 5px 5px #449;
 }
+.modal-content
+{
+	background: transparent;
+	border: none;
+}
+.modal-header
+{
+	border: none;
+	color: #fff;
+}
+.modal-header button span
+{
+	color: #fff;
+	text-shadow: none;
+}
+.modal-body img
+{
+	box-shadow: 2px 2px 5px #000;
+}
+.modal-footer
+{
+	border: none;
+}
+
+
+
 #about .heading
 {
 	display: flex;
@@ -134,7 +159,15 @@ section .heading
 }
 #about .heading>h3
 {
-	color: #000;
+	color: #ddd;
+}
+#about .heading>p
+{
+	color: #eee;
+}
+#about .heading>p a
+{
+	color: #fff;
 }
 .button1
 {
@@ -179,7 +212,7 @@ section .heading
 #skills>.container-fluid>.row>.col-md-6>.progress:hover
 {
 	box-shadow: 3px 3px 5px #559;
-
+	transition: 0.5s;
 }
 #skills>.container-fluid>.row>.col-md-6>.progress>.progress-bar
 {
